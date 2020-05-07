@@ -1,0 +1,5 @@
+FROM node
+COPY . /home/demo
+WORKDIR /home/demo
+EXPOSE 6001
+CMD ["npm", "start"]
